@@ -10,7 +10,7 @@ import { mapStateToProps as AllCatsMapState, mapDispatchToProps as AllCatsMapDis
 import { mapStateToProps as SingleCatMapState, mapDispatchToProps as SingleCatMapDispatch } from '../../src/client/components/SingleCat'
 
 describe('React-Redux MapBlanks', () => {
-  xdescribe('AllCats', () => {
+  describe('AllCats', () => {
     describe('mapState', () => {
       it('should take cats from state', () => {
         const fakeState = {
